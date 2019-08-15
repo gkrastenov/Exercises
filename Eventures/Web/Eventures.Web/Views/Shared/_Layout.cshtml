@@ -6,6 +6,7 @@
     <title>@this.ViewData["Title"] - Eventures</title>
 
     <environment names="Development">
+        <link href="~/css/reset-css.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
     </environment>
@@ -15,44 +16,44 @@
     </environment>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Eventures</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+
+        <header class="bg-eventures">
+            <nav class="navbar navbar-expand-lg navbar-light w-75 mx-auto px-0 font-weight-bold">
+                <a class="navbar-brand" href="#">Eventures</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <div class="collapse navbar-collapse d-flex justify-content-between"  id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Home/Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Settings" asp-action="Index">Settings</a>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Identity/Account/Login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Identity/Account/Register">Register</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    
-    <div class="container">
-        <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
+            </nav>
+        </header>
+        <main>
             @this.RenderBody()
         </main>
+        <footer class="w-75 mx-auto bg-eventures rounded">
+            <div class="container-fluid bg-eventures">
+                <div class="text-white p-2 text-center text-dark py-1">
+                    <h5 class="font-weight-normal mt-2"> &copy; CopyRight Eventures Inc. 2018- 2019. All right reserved.</h5>
+                </div>
+            </div>
+        </footer>
+
     </div>
     
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; @DateTime.Now.Year - Eventures - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
