@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\bin\Debug\Adventure.Models.dll
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\bin\Debug\Adventure.Models.pdb
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\bin\Debug\Adventure.Models.apk
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\bin\Debug\Adventure.Models-Signed.apk
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\Adventure.Models.nuget.stamp
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\Adventure.Models.csprojAssemblyReference.cache
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\res.flag
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\Adventure.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\Adventure.Models.dll
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\Adventure.Models.pdb
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\android\bin\Adventure.Models.apk
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\R.cs.flag
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\R.txt
+C:\Users\user\source\repos\AdventureApp\Adventure.Models\obj\Debug\81\uploadflags.txt
