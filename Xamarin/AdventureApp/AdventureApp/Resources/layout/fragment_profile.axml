@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"	
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	 <TextView
+			android:text="Name"
+			android:layout_width="match_parent"
+			android:layout_height="60px"
+			android:minWidth="30px"
+			android:minHeight="30px"
+			android:id="@+id/lat"
+			android:layout_marginTop="20px"
+			android:layout_marginLeft="10px"
+			android:layout_marginRight="350px" /> 
+	<!-- Top Header -->
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar_profile"
+		android:minHeight="25px"
+		android:minWidth="25px"
+		android:layout_width="match_parent"
+		android:layout_height="100px"
+		android:background="#3498db"/>
+
+	<!-- Down Header -->
+
+	<!--Bottom-->
+	<android.support.v7.widget.ActionBarContainer
+		android:id="@+id/actionBarContainer1" 
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below ="@+id/toolbar_profile"
+		android:background="#1B3147"/>
+	
+
+</RelativeLayout>
