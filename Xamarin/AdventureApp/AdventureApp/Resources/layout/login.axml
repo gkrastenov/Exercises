@@ -8,7 +8,8 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edit_UserName"
-		android:text= "Username"
+		android:hint="Username"
+		android:gravity="center"
 		android:focusable="true"
 		android:textSize="18dp"/>
 
@@ -16,8 +17,9 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edit_UserPassword"
-		android:text= "Password"
-		android:focusable="true"
+		android:hint="Password"
+		android:gravity="center"
+		android:focusable="true"	
 		android:textSize="18dp"/>
 	<Button
 		android:text="Log In"

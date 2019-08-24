@@ -23,7 +23,6 @@ namespace AdventureApp
             registerButton = FindViewById<Button>(Resource.Id.btn_Register);          
             loginButton.Click += LoginButton_Click;
             registerButton.Click += RegisterButton_Click;
-
         }
         private void RegisterButton_Click(object sender, System.EventArgs e)
         {
@@ -31,7 +30,7 @@ namespace AdventureApp
         }
 
         private void LoginButton_Click(object sender, System.EventArgs e)
-        {
+        {           
             StartActivity(typeof(LoginActivity));
         }
     }

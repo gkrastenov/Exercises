@@ -373,21 +373,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Georgi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\AdventureApp\\Adventure.Models\\Adventure.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Georgi\\Desktop\\AdventureApp\\Adventure.Models\\Adventure.Models.csproj",
       "projectName": "Adventure.Models",
-      "projectPath": "C:\\Users\\user\\source\\repos\\AdventureApp\\Adventure.Models\\Adventure.Models.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\AdventureApp\\Adventure.Models\\obj\\",
+      "projectPath": "C:\\Users\\Georgi\\Desktop\\AdventureApp\\Adventure.Models\\Adventure.Models.csproj",
+      "packagesPath": "C:\\Users\\Georgi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Georgi\\Desktop\\AdventureApp\\Adventure.Models\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Georgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"

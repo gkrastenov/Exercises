@@ -7,7 +7,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edit_Username"
-		android:text= "Username"
+        android:hint="Username"
 		android:focusable="true"
 		android:gravity="center"
 		android:textSize="18dp"/>
@@ -15,7 +15,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edit_Email"
-		android:text= "Email"
+		android:hint="Email"
 		android:focusable="true"
 		android:gravity="center"
 		android:textSize="18dp"/>
@@ -23,7 +23,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edit_Password"
-		android:text= "Password"
+		android:hint="Password"
 		android:focusable="true"
 		android:gravity="center"
 		android:textSize="18dp"/>

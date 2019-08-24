@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureApp", "AdventureApp\AdventureApp.csproj", "{26B1D4FB-569D-4300-BFD3-24E105F10AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure.Models", "Adventure.Models\Adventure.Models.csproj", "{38BD9B89-E7C6-4A24-A315-F5960AE5E885}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{26B1D4FB-569D-4300-BFD3-24E105F10AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26B1D4FB-569D-4300-BFD3-24E105F10AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26B1D4FB-569D-4300-BFD3-24E105F10AE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{38BD9B89-E7C6-4A24-A315-F5960AE5E885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BD9B89-E7C6-4A24-A315-F5960AE5E885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BD9B89-E7C6-4A24-A315-F5960AE5E885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BD9B89-E7C6-4A24-A315-F5960AE5E885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
