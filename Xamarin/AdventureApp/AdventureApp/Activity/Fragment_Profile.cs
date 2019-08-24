@@ -28,8 +28,8 @@ namespace AdventureApp
         {
             var view = inflater.Inflate(Resource.Layout.fragment_profile, container, false);
             // Use this to return your custom view for this Fragment
-            usernameText = view.FindViewById<TextView>(Resource.Id.lat);
-            usernameText.Text = "georgikrastenov";
+           // usernameText = view.FindViewById<TextView>(Resource.Id.nickname);
+           // usernameText.Text = "georgikrastenov";
             return view;
 
         }

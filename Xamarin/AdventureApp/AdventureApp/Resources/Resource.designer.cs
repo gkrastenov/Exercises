@@ -2357,8 +2357,8 @@ namespace AdventureApp
 			// aapt resource value: 0x7f0800a9
 			public const int action0 = 2131230889;
 			
-			// aapt resource value: 0x7f08009e
-			public const int actionBarContainer1 = 2131230878;
+			// aapt resource value: 0x7f08009d
+			public const int actionBarContainer1 = 2131230877;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2621,9 +2621,6 @@ namespace AdventureApp
 			// aapt resource value: 0x7f08008e
 			public const int largeLabel = 2131230862;
 			
-			// aapt resource value: 0x7f08009c
-			public const int lat = 2131230876;
-			
 			// aapt resource value: 0x7f080049
 			public const int left = 2131230793;
 			
@@ -2674,6 +2671,9 @@ namespace AdventureApp
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
+			
+			// aapt resource value: 0x7f08009c
+			public const int nickname = 2131230876;
 			
 			// aapt resource value: 0x7f080022
 			public const int none = 2131230754;
@@ -2876,8 +2876,8 @@ namespace AdventureApp
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f08009d
-			public const int toolbar_profile = 2131230877;
+			// aapt resource value: 0x7f08009e
+			public const int toolbar_profile = 2131230878;
 			
 			// aapt resource value: 0x7f08003e
 			public const int top = 2131230782;

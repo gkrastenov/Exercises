@@ -15,6 +15,7 @@ namespace AdventureApp
 {
     public class Fragment_Home : Android.Support.V4.App.Fragment
     {
+        // doesn't need from constructor
         public Fragment_Home()
         {
 
