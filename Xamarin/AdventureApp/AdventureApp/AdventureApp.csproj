@@ -65,6 +65,10 @@
     <Compile Include="Activity\GlobalActivity.cs" />
     <Compile Include="Activity\LoginActivity.cs" />
     <Compile Include="Activity\RegisterActivity.cs" />
+    <Compile Include="Activity\TextFragment1.cs" />
+    <Compile Include="Activity\TextFragment2.cs" />
+    <Compile Include="Activity\TextFragment3.cs" />
+    <Compile Include="Adapters\ViewPagerAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
