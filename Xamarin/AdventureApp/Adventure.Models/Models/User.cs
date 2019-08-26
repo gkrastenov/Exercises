@@ -17,6 +17,7 @@ namespace AdventureApp.Models
         private string phoneNumber;
         private string country;
         */
+        //  private DateTime birthDate;
         public User(string username, string password, string email)
         {
             this.username = username;
