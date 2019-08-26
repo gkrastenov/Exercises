@@ -24,7 +24,6 @@ namespace AdventureApp
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            ;
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.global_layout);  
             

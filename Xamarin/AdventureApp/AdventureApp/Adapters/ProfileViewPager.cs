@@ -14,12 +14,12 @@ using Java.Lang;
 
 namespace AdventureApp.Adapters
 {
-    class ViewPagerAdapter : FragmentPagerAdapter
+    class ProfileViewPager : FragmentPagerAdapter
     {
         private List<Android.Support.V4.App.Fragment> mFragmentList = new List<Android.Support.V4.App.Fragment>();
         private List<string> mFragmentTitleList = new List<string>();
 
-        public ViewPagerAdapter(Android.Support.V4.App.FragmentManager manager) : base(manager)
+        public ProfileViewPager(Android.Support.V4.App.FragmentManager manager) : base(manager)
         {
             //base.OnCreate(manager);
         }
@@ -35,7 +35,12 @@ namespace AdventureApp.Adapters
         {
             return mFragmentList[postion];
         }
-
+        public override ICharSequence GetPageTitleFormatted(int position)
+        {
+            var tittle = mFragmentTitleList[position];
+            ICharSequence derp = new Java.Lang.String(tittle);
+            return derp;
+        }
         public void addFragment(Android.Support.V4.App.Fragment fragment, string title)
         {
             mFragmentList.Add(fragment);

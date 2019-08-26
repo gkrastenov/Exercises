@@ -4,6 +4,7 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
+using System.Drawing;
 
 namespace AdventureApp
 {
@@ -13,17 +14,16 @@ namespace AdventureApp
 
         private TabLayout tabLayout;
         private ViewPager viewPager;
+        private Button friendsButton;
       
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);          
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = inflater.Inflate(Resource.Layout.fragment_profile, container, false);
+            var view = inflater.Inflate(Resource.Layout.fragment_profile, container, false);   
             // Use this to return your custom view for this Fragment
             usernameText = view.FindViewById<TextView>(Resource.Id.nickname);
             usernameText.Text = "georgikrastenov";
@@ -34,28 +34,45 @@ namespace AdventureApp
             tabLayout = view.FindViewById<TabLayout>(Resource.Id.tabs_menu);
             tabLayout.SetupWithViewPager(viewPager);
 
-            return view;
+            friendsButton = view.FindViewById<Button>(Resource.Id.btn_showFriends);
+            friendsButton.Text = ConvertBtnFriendsText();
+            friendsButton.Click += FriendsButton_Click;
 
-        }        
+            return view;
+        }
+
+        private void FriendsButton_Click(object sender, System.EventArgs e)
+        {
+            FriendsActivity friendsActivity = new FriendsActivity();
+            // maybe have to dispose fragment ???
+        }
+
         public void setupViewPager(ViewPager viewPager)
         {
-            InditialFragment();
-            ViewPagerAdapter adapter = new ViewPagerAdapter(FragmentManager);
-            adapter.addFragment(fragment1, "Explore");
-            adapter.addFragment(fragment2, "Featured");
+            InitialFragmentFragment();
+            ProfileViewPager adapter = new ProfileViewPager(FragmentManager);
+            adapter.addFragment(fragment_posts, "Posts");
+            adapter.addFragment(fragment_likedPosts, "Liked");
 
             viewPager.Adapter = adapter;
         }
 
-        private TextFragment1 fragment1;
-        private TextFragment2 fragment2;
-        private TextFragment3 fragment3;
-        private void InditialFragment()
+        private Fragment_PostsOfUser fragment_posts;
+        private Fragment_LikedPostOnUser fragment_likedPosts;
+
+        private void InitialFragmentFragment()
         {
-            fragment1 = new TextFragment1();
-            fragment2 = new TextFragment2();
-            fragment3 = new TextFragment3();
-           
+            fragment_posts = new Fragment_PostsOfUser();
+            fragment_likedPosts = new Fragment_LikedPostOnUser();  
+        }
+
+        private string ConvertBtnFriendsText()
+        {
+            string text = "0 friends";
+
+            // add logic for firends more 1000 , 10000, 100000, 1mln
+
+            return text;
         }
     }
     
