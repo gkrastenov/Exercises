@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+	     xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+		<Toolbar
+    android:id="@+id/toolbar_home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/actionBarSize"
+	android:background="@android:color/white"
+    app:itemTextColor ="@color/colorPrimary"
+    app:menu="@menu/toolbar_home"/>
+		<ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:layout_below="@+id/toolbar_home"
+        android:cacheColorHint="#00000000"
+        android:id="@+id/list_home"
+        android:choiceMode="singleChoice"
+        android:layout_marginTop="5dp"
+		android:fastScrollEnabled="true"
+        android:divider="#ffbfbeb8"
+        android:dividerHeight="1px" />
+</RelativeLayout>

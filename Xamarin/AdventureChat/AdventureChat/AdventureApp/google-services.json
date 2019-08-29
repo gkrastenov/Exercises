@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "975882123485",
+    "firebase_url": "https://mobilechat-adventure.firebaseio.com",
+    "project_id": "mobilechat-adventure",
+    "storage_bucket": "mobilechat-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975882123485:android:6d6597d6ebda529d",
+        "android_client_info": {
+          "package_name": "mobilechat.adventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975882123485-noa0mqbn2d85nf6qbp4cmrgem81ouctg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDObanHU9MKdj3_uGClIFQhUHjzEMcv80Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975882123485-noa0mqbn2d85nf6qbp4cmrgem81ouctg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

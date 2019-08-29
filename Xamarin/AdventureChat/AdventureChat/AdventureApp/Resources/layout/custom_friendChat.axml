@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="100px"
+    android:minHeight="100px"
+    android:background="#fff5f0f0">
+<!-- Код на контрагент -->
+	<ImageButton
+		android:id="@+id/btn_friendImage"
+		android:icon="@drawable/friends"
+		android:layout_width="220px"
+        android:layout_height="220px"
+		/>
+    <TextView
+        android:id="@+id/txt_friendName"
+        android:text="Text"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:textColor="#ff2a1313"
+        android:textColorHighlight="#ff3171cb"
+        android:layout_toRightOf="@id/btn_friendImage"
+		android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:textSize="20dp"/>   
+</RelativeLayout>

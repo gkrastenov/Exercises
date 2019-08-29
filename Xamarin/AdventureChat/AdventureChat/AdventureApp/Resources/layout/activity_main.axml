@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Button
+		android:text="Log In"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/btn_Login"
+		android:fadingEdge="horizontal" />
+	<Button
+		android:text="Register"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_Register" />
+	 <TextView
+        android:text=" "
+        android:layout_width="300px"
+        android:layout_height="500px"
+        android:id="@+id/msgText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="10dp" />
+	<Button
+  android:id="@+id/logTokenButton"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+  android:text="Log Token" />
+</LinearLayout>
