@@ -9,9 +9,12 @@ namespace AdventureApp
     [Activity(Label = "LoginActivity")]
     public class LoginActivity : Activity
     {
-        private Button loginAs;
-        private EditText username;
-        private EditText password;
+        private FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+        private bool canLogin = false;
+        private Button btn_loginAs;
+        private EditText txt_email;
+        private EditText txt_password;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -19,16 +22,44 @@ namespace AdventureApp
 
             SetContentView(Resource.Layout.login);
 
-            loginAs = FindViewById<Button>(Resource.Id.btn_LoginAs);
-            username = FindViewById<EditText>(Resource.Id.edit_UserName);
-            password = FindViewById<EditText>(Resource.Id.edit_UserPassword);
+            btn_loginAs = FindViewById<Button>(Resource.Id.btn_LoginAs);
+            txt_email = FindViewById<EditText>(Resource.Id.edit_InputEmail); // rename id from edit_UserName to edit_InputEmail
+            txt_password = FindViewById<EditText>(Resource.Id.edit_InputPassword); // rename id from edit_UserPassword to edit_InputPassword
 
-            loginAs.Click += LoginAs_Click;
+            btn_loginAs.Click += LoginAs_Click;
 
         }
         private void LoginAs_Click(object sender, EventArgs e)
         {
-            StartActivity(typeof(GlobalActivity));
+
+            var email = txt_email.Text;
+            var password = txt_password.Text;
+            CheckPersonExist(email, password);
+
+            if(canLogin)
+            {
+                StartActivity(typeof(GlobalActivity));
+            }
+            else
+            {
+                // red text above btn_loginAs  , nevalidni danni , opitaite otnovo
+            }
+        }
+        private async void CheckPersonExist(string email, string password)
+        {
+            var existEmail = await firebaseHelper.CheckEmailExist(email);
+
+            if (existEmail == false)
+            {
+                // red text above btn_loginAs  , ne sushtestvuva takova ime
+            }
+
+            var correctPassword = await firebaseHelper.CheckCorrectPasswordForPerson(email, password);
+
+            if(correctPassword)
+            {
+                canLogin = true;
+            }
         }
     }
 }

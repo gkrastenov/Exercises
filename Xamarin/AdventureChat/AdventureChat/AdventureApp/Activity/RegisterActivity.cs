@@ -2,6 +2,14 @@
 using Android.App;
 using Android.OS;
 using Android.Widget;
+using Adventure.Controllers;
+using AdventureApp.Models;
+using Firebase.Database;
+using Firebase.Database.Query;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Android.Content;
+using Newtonsoft.Json;
 
 namespace AdventureApp
 
@@ -9,7 +17,7 @@ namespace AdventureApp
     [Activity(Label = "Register")]
     public class RegisterActivity : Activity
     {
-        FirebaseHelper firebaseHelper = new FirebaseHelper();
+        private FirebaseHelper firebaseHelper = new FirebaseHelper();
 
         private Button signUp;
         private EditText username;
@@ -17,20 +25,9 @@ namespace AdventureApp
         private EditText password;
 
 
-        /*protected async override void OnAppearing()
-        {
-
-            base.OnAppearing();
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
-            1stPerson is listView
-        }*/
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your application here
             SetContentView(Resource.Layout.register);
 
             signUp = FindViewById<Button>(Resource.Id.btn_SignUp);
@@ -44,18 +41,29 @@ namespace AdventureApp
         }
 
         private async void SignUp_Click(object sender, EventArgs e)
-        {
-            var list =   await firebaseHelper.GetAllPersons();
-      
-           await firebaseHelper.AddPerson("text","test.email","test.password");
-            // User newUser = new User(username.Text, email.Text, password.Text);
+        {     
+            Person person = new Person(username.Text, email.Text, password.Text);           
+
+            var emailExist = await firebaseHelper.CheckEmailExist(email.Text);
+            var usernameExist = await firebaseHelper.CheckUsernameExist(username.Text);
+
             username.Text = string.Empty;
             email.Text = string.Empty;
             password.Text = string.Empty;
 
-            // var allPersons = await firebaseHelper.GetAllPersons();
+            if(emailExist==true || usernameExist == true)
+            {
+                throw new InvalidOperationException("ne moje da se registrira potrebitel");
+            }
+            firebaseHelper.AddPerson(person);
 
-            StartActivity(typeof(GlobalActivity));
+            Intent intent = new Intent(this, typeof(GlobalActivity));
+            intent.PutExtra("Person", JsonConvert.SerializeObject(person));
+
+            this.StartActivity(intent);
+            this.Finish();
+
+            
         }
     }
 }
