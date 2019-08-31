@@ -2675,14 +2675,14 @@ namespace AdventureApp
 			// aapt resource value: 0x7f0b00cc
 			public const int edit_Email = 2131427532;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int edit_Password = 2131427533;
-			
 			// aapt resource value: 0x7f0b00b5
-			public const int edit_UserName = 2131427509;
+			public const int edit_InputEmail = 2131427509;
 			
 			// aapt resource value: 0x7f0b00b6
-			public const int edit_UserPassword = 2131427510;
+			public const int edit_InputPassword = 2131427510;
+			
+			// aapt resource value: 0x7f0b00cd
+			public const int edit_Password = 2131427533;
 			
 			// aapt resource value: 0x7f0b00cb
 			public const int edit_Username = 2131427531;

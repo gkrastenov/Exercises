@@ -13,34 +13,66 @@ using Android.Widget;
 using Firebase.Database;
 using Firebase.Database.Query;
 
+
 namespace AdventureApp
 {
     public class FirebaseHelper
     {
-        FirebaseClient firebase = new FirebaseClient("https://mobilechat-adventure.firebaseio.com/");
+        private FirebaseClient firebase = new FirebaseClient("https://mobilechat-adventure.firebaseio.com/");
 
-        public async Task<List<User>> GetAllPersons()
+        public async Task<List<Person>> GetAllUsernameOnPerson()
         {
-
             return (await firebase
               .Child("Persons")
-              .OnceAsync<User>()).Select(item => new User
+              .OnceAsync<Person>()).Select(item => new Person
               {
                   Username = item.Object.Username,
-                  Email = item.Object.Email,
-                  Password = item.Object.Password
 
               }).ToList();
         }
 
-        public async Task AddPerson(string username, string email, string password)
+        public async Task<bool> CheckEmailExist(string email)
         {
-            var newUser = new User(username, email, password);
-            await firebase
-             .Child("Persons")
-             .PostAsync<User>(newUser);
+            var person = (await firebase
+               .Child("Persons")
+               .OnceAsync<Person>()).Where(a => a.Object.Email == email).FirstOrDefault();
 
+            if (person != null)
+                return true;
+            else
+                return false;
         }
 
+        public async Task<bool> CheckUsernameExist(string username)
+        {
+            var person = (await firebase
+              .Child("Persons")
+              .OnceAsync<Person>()).Where(a => a.Object.Username == username).FirstOrDefault();
+
+            if (person != null)
+                return true;
+            else
+                return false;
+        }
+
+        public async Task<bool> CheckCorrectPasswordForPerson(string email, string password)
+        {
+            var person = (await firebase
+              .Child("Persons")
+              .OnceAsync<Person>()).Where(a => a.Object.Email == email).FirstOrDefault();
+
+            if (person != null)
+                return true;
+            else
+                return false;
+        }
+
+        public void AddPerson(Person person)
+        {
+            var newPerson = person;
+              firebase
+             .Child("Persons")
+             .PostAsync<Person>(newPerson);
+        }
     }
 }
