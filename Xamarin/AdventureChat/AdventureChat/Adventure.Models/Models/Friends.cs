@@ -15,20 +15,20 @@ namespace Adventure.Models
     // one User have many friends    
     public class Friends
     {
-        private List<User> listFriends = new List<User>();
+        private List<Person> listFriends = new List<Person>();
 
         public Friends()
         {
             // initial listFriends here
         }
 
-        public void AddFriend(User user )
+        public void AddFriend(Person user )
         {
             // maybe have to work with User.Id -> will check
             listFriends.Add(user);
         }
 
-        public void RemoveFriend(User user)
+        public void RemoveFriend(Person user)
         {
             // maybe have to work with User.Id -> will check
             listFriends.Remove(user);

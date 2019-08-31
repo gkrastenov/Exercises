@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Models\FriendChat.cs" />
     <Compile Include="Models\Friends.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
