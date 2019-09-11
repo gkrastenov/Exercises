@@ -1,0 +1,11 @@
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.deps.json
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.runtimeconfig.json
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.runtimeconfig.dev.json
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.dll
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.pdb
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.csprojAssemblyReference.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.csproj.CoreCompileInputs.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.AssemblyInfoInputs.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.AssemblyInfo.cs
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.dll
+C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.pdb

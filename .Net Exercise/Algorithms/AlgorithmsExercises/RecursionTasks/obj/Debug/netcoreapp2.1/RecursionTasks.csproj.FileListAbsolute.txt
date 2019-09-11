@@ -1,0 +1,11 @@
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\bin\Debug\netcoreapp2.1\RecursionTasks.deps.json
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\bin\Debug\netcoreapp2.1\RecursionTasks.runtimeconfig.json
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\bin\Debug\netcoreapp2.1\RecursionTasks.runtimeconfig.dev.json
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\bin\Debug\netcoreapp2.1\RecursionTasks.dll
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\bin\Debug\netcoreapp2.1\RecursionTasks.pdb
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.csprojAssemblyReference.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.csproj.CoreCompileInputs.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.AssemblyInfoInputs.cache
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.AssemblyInfo.cs
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.dll
+C:\Georgi\Algorithms\AlgorithmsExercises\RecursionTasks\obj\Debug\netcoreapp2.1\RecursionTasks.pdb
