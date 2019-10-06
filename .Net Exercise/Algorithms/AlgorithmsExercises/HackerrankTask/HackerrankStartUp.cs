@@ -13,9 +13,7 @@ namespace HackerrankTask
     {
         static void Main(string[] args)
         {
-            IceCreamParlor parlor = new IceCreamParlor();
-            parlor.RunTask();
-
+         
         }
 }
 }

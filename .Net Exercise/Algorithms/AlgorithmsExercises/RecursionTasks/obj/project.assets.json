@@ -688,24 +688,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Georgi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Georgi\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\RecursionTasks.csproj",
+      "projectUniqueName": "C:\\Users\\Georgi\\Desktop\\Exercises\\.Net Exercise\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\RecursionTasks.csproj",
       "projectName": "RecursionTasks",
-      "projectPath": "C:\\Georgi\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\RecursionTasks.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Georgi\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\obj\\",
+      "projectPath": "C:\\Users\\Georgi\\Desktop\\Exercises\\.Net Exercise\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\RecursionTasks.csproj",
+      "packagesPath": "C:\\Users\\Georgi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Georgi\\Desktop\\Exercises\\.Net Exercise\\Algorithms\\AlgorithmsExercises\\RecursionTasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Georgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -729,6 +732,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

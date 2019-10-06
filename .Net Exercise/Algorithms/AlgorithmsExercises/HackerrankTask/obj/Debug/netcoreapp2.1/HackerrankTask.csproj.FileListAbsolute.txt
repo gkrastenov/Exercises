@@ -9,3 +9,14 @@ C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\
 C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.AssemblyInfo.cs
 C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.dll
 C:\Georgi\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.pdb
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.deps.json
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.runtimeconfig.json
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.runtimeconfig.dev.json
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.dll
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\bin\Debug\netcoreapp2.1\HackerrankTask.pdb
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.csprojAssemblyReference.cache
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.csproj.CoreCompileInputs.cache
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.AssemblyInfoInputs.cache
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.AssemblyInfo.cs
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.dll
+C:\Users\Georgi\Desktop\Exercises\.Net Exercise\Algorithms\AlgorithmsExercises\HackerrankTask\obj\Debug\netcoreapp2.1\HackerrankTask.pdb

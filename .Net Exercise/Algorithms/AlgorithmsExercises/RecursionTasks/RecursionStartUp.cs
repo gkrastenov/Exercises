@@ -1,4 +1,5 @@
 ﻿using RecursionTasks.Tasks;
+using RecursionTasks.Tasks.BackTracking;
 using System;
 
 namespace RecursionTasks
@@ -7,7 +8,7 @@ namespace RecursionTasks
     {
         static void Main(string[] args)
         {
-            LexicographicOrder nestedLoops = new LexicographicOrder();
+            AllPossiblePaths nestedLoops = new AllPossiblePaths();
             nestedLoops.RunTask();
         }
     }
